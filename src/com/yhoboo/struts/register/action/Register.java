@@ -17,7 +17,21 @@ public class Register extends ActionSupport{
 	public static long getSerialversionuid() {
 		return serialVersionUID;
 	}
-	
+
+	public void validate() {
+		if(personBean.getFirstName().length() == 0) {
+			addFieldError("personBean.firstName", "Firstname is required.");
+		}
+		
+		if(personBean.getEmail().length() == 0) {
+			addFieldError("personBean.email", "Email is required.");
+		}
+		
+		if(personBean.getAge() < 18) {
+			addFieldError("personBean.age", "Age is required and must be 18 or older");
+		}
+	}
+
 	public String execute() throws Exception{
 		// call Service class to store personBean's state in database
 		
