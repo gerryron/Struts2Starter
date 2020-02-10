@@ -21,5 +21,7 @@
     	<s:textfield name="userName" label="Your name" />
     	<s:submit value="Submit" />
     </form>
+    
+    <p><a href="register.jsp">Please Register</a> for our prize drawing.</p>
   </body>
 </html>

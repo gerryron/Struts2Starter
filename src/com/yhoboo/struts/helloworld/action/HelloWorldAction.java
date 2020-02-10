@@ -5,6 +5,10 @@ import com.yhoboo.struts.helloworld.model.MessageStore;
 
 public class HelloWorldAction extends ActionSupport{
 	
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	private MessageStore messageStore;
 	private static int helloCount = 0;
 	private String userName;
