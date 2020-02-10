@@ -1,6 +1,7 @@
-package com.yhoboo.java;
+package com.yhoboo.struts.helloworld.action;
 
 import com.opensymphony.xwork2.ActionSupport;
+import com.yhoboo.struts.helloworld.model.MessageStore;
 
 public class HelloWorldAction extends ActionSupport{
 	

@@ -1,4 +1,4 @@
-package com.yhoboo.java;
+package com.yhoboo.struts.helloworld.model;
 
 public class MessageStore {
 	
